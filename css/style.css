@@ -1,0 +1,98 @@
+/* estilos generales */
+*{
+    background-color: #f9f8f8;
+}
+*{
+    font-family: "Outfit", sans-serif;
+}
+.logoperfu{
+    width: 10rem;
+    border-radius: 10rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2f4156;
+}
+/* Inicio header*/
+.header1{
+    background-image: url(../Img/fragancias50off.webp);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.perfuTitu{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.perfusubtitu{
+    text-align: center;
+    text-decoration: underline;
+}
+.contenedorSuperiorHeader{
+    display: flex;
+    justify-content: center;
+
+}
+/* los perfumillos de la galeria */
+.bombasArabes{
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.perfumesContenedorFlex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.cajitaContenedora{
+    background-color: #f9f8f8;
+    width: 20rem;
+
+
+}
+.perfumito{
+    width: 20rem;
+}
+.botonCompra{
+    background-color: antiquewhite;
+    border: 1px solid #2f4156;
+    width: 10rem;
+
+}
+.botonCompra2{
+    background-color: antiquewhite;
+    border: 1px solid #2f4156;
+    width: 10rem;
+}
+/* Contacto */
+.quienesSomos{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.casilla{
+    background-color: rgb(255, 255, 255);
+}
+/* servicios */
+.servis{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.contac{
+    text-decoration: underline; color: #2f4156;
+}
+/* Footers */
+.pieDeHojas{
+    background-color: #557599;
+    font-size: 1rem;
+    text-align: right;
+    padding: 16px;
+    margin: 16px;
+}
