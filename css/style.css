@@ -48,7 +48,7 @@ a {
 
 /* los perfumillos de la galeria */
 .bombasArabes {
-  font-size: 1rem;
+  font-size: 1;
   text-align: center;
   text-decoration: underline;
 }
@@ -67,18 +67,6 @@ a {
 
 .perfumito {
   width: 20rem;
-}
-
-.botonCompra {
-  background-color: antiquewhite;
-  border: 1px solid #2f4156;
-  width: 10rem;
-}
-
-.botonCompra2 {
-  background-color: antiquewhite;
-  border: 1px solid #2f4156;
-  width: 10rem;
 }
 
 /* Contacto */

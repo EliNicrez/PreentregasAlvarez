@@ -1,4 +1,19 @@
+//extents
+
+%botonesCompra12 {
+    background-color: antiquewhite;
+    border: 1px solid #2f4156;
+    width: 10rem;
+}
+//mixins
+@mixin titu1titu2($foSi,$teAl,$teDe){
+    font-size: $foSi;
+    text-align: $teAl;
+    text-decoration: $teDe;
+}
+
 /* estilos generales */
+
 * {
     background-color: #f9f8f8;
 }
@@ -31,9 +46,10 @@ a {
 }
 
 .perfuTitu {
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: underline;
+//    font-size: 2rem;
+//    text-align: center;
+//    text-decoration: underline;
+@include titu1titu2(2rem,center,underline )
 }
 
 .perfusubtitu {
@@ -49,9 +65,10 @@ a {
 
 /* los perfumillos de la galeria */
 .bombasArabes {
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: underline;
+//    font-size: 1rem;
+//    text-align: center;
+//    text-decoration: underline;
+@include titu1titu2(1,center,underline)
 }
 
 .perfumesContenedorFlex {
@@ -73,16 +90,11 @@ a {
 }
 
 .botonCompra {
-    background-color: antiquewhite;
-    border: 1px solid #2f4156;
-    width: 10rem;
-
+    @extend %botonesCompra12
 }
 
 .botonCompra2 {
-    background-color: antiquewhite;
-    border: 1px solid #2f4156;
-    width: 10rem;
+    @extend %botonesCompra12
 }
 
 /* Contacto */
